@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "declaration": false,
+    "removeComments": false,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "lib": ["es6", "es7", "dom", "dom.iterable"],
+    "baseUrl": "src",
+    "downlevelIteration": true,
+    "paths": {
+      "app/*": ["./src/*"]
+    },
+    "typeRoots": ["node_modules/@types", "@types"],
+    "types": ["node"]
+  },
+  "exclude": ["dist", "node_modules"]
+}

@@ -1,0 +1,37 @@
+{
+  "linterOptions": {
+    "exclude": ["*.js"]
+  },
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react-hooks"],
+  "jsRules": {},
+  "rules": {
+    "arrow-parens": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "no-console": false,
+    "no-require-imports": false,
+    "no-var-requires": false,
+    "no-empty-interface": false,
+    "max-classes-per-file": false,
+    "member-access": false,
+    "member-ordering": false,
+    "semicolon": [true, "never"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "react-hooks-nesting": "error",
+    "trailing-comma": {
+      "options": {
+        "multiline": {
+          "arrays": "always",
+          "exports": "always",
+          "functions": "ignore",
+          "imports": "always",
+          "objects": "always",
+          "typeLiterals": "never"
+        },
+        "singleline": "never"
+      }
+    }
+  },
+  "rulesDirectory": []
+}
